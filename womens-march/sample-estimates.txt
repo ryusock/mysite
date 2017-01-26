@@ -64,7 +64,7 @@
 'Block Island, RI';RI;US;60;80
 'Bloomsburg, PA';PA;US;40;60
 'Bluff, UT';UT;US;48;48
-'Boise, ID';ID;US;50005000
+'Boise, ID';ID;US;5000;5000
 'Borrego Springs, CA';CA;US;140;150
 'Boston, MA';MA;US;175000;175000
 'Bozeman, MT';MT;US;13;13

@@ -64,7 +64,7 @@
 'Block Island, RI';RI;US;60;80
 'Bloomsburg, PA';PA;US;40;60
 'Bluff, UT';UT;US;48;48
-'Boise, ID';ID;US;50005000
+'Boise, ID';ID;US;5000;5000
 'Borrego Springs, CA';CA;US;140;150
 'Boston, MA';MA;US;175000;175000
 'Bozeman, MT';MT;US;13;13
@@ -316,7 +316,7 @@
 'Louisville, KY';KY;US;5000;5000
 'Loup City, NE';NE;US;100;150
 'Lovell, ME';ME;US;2;2
-'Lovettsville,VA';US,5;5
+'Lovettsville, VA';VA;US,5;5
 'Lubbock, TX';TX;US;350;1000
 'Lubec, ME';ME;US;95;95
 'Lyons, CO';CO;US;25;30
@@ -423,7 +423,7 @@
 'Pikeville, KY';KY;US;100;100
 'Pinedale, WY';WY;US;100;100
 'Pittsburgh, PA';PA;US;25000;25000
-'Pittsfield, MA';MA;US;15001500
+'Pittsfield, MA';MA;US;1500;1500
 'Plattsburgh, NY';NY;US;182;700
 'Plymouth, WI';WI;US;200;200
 'Pocatello, ID';ID;US;1200;1200
@@ -621,6 +621,3 @@
 'Yucca Valley, CA';CA;US;76;200
 'Yuma, AZ';AZ;US;10;10
 'Zebulon, GA';GA;US;35;35
-
-
-
