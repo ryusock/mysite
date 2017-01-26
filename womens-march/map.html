@@ -18,8 +18,21 @@
     	xmlHttp.open("GET", theUrl, true); // true for asynchronous 
     	xmlHttp.send(null);
 		}
-		var text = "";
-		httpGetAsync("crowd-estimates.txt", text)
+		httpGetAsync("http://ryusock.github.io/womens-march/crowd-estimates.txt", readText)
+
+		var rows = []
+		var dataArray = ['City', 'Crowd Estimate'];
+		function readText(text) {
+			rows = text.split("\n");
+			for (i = 0; i < rows.length; i++) {
+				r = rows[i];
+				newArray = [];
+				newArray.push(r[0]);
+				newArray.push(r[3]);
+				dataArray.push(newArray);
+			}
+
+		}
    	
     function drawMarkersMap() {
     var data = google.visualization.arrayToDataTable([
