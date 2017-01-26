@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="../css/bootstrap.css"/>
+  <link type="text/css" rel="stylesheet" href="../css/stylesheet.css"/>
+  <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+  <script type='text/javascript'>
+   	google.charts.load('upcoming', {'packages': ['geochart']});
+   	google.charts.setOnLoadCallback(drawMarkersMap);
+
+   	function httpGetAsync(theUrl, callback) {
+    	var xmlHttp = new XMLHttpRequest();
+    	xmlHttp.onreadystatechange = function() { 
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+        	callback(xmlHttp.responseText);
+    	}
+    	xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+    	xmlHttp.send(null);
+		}
+		var text = "";
+		httpGetAsync("crowd-estimates.txt", text)
+   	
+    function drawMarkersMap() {
+    var data = google.visualization.arrayToDataTable([
+      ['City',   'Population', 'Area'],
+      ['New York, NY',      2761477,    1285.31],
+      ['Chicago, IL',     1324110,    181.76],
+      ['Los Angeles, CA',    959574,     117.27],
+      ['Seattle, WA',     907563,     130.17],
+      ['Denver, CO',   655875,     158.9],
+      ['Portland, OR',     607906,     243.60],
+      ['Miami, FL',   380181,     140.7],
+      ['Cleveland, OH',  371282,     102.41],
+      ['Charlotte, NC', 67370,      213.44],
+      ['Atlanta, GA',     52192,      43.43],
+      ['Albuquerque, NM',  38262,      11]
+    ]);
+
+    var options = {
+      region: 'US',
+      displayMode: 'markers',
+      colorAxis: {colors: ['green', 'blue']}
+    };
+
+    var chart = new google.visualization.GeoChart(document.getElementById('mapDiv'));
+    chart.draw(data, options);
+  };
+  </script>
+  <title>Women's March</title>
+</head>
+
+<body>
+<div class="container">
+	<h1>Visualizing the Women's March crowd estimates at US cities</h1>
+	<h4>Local organizers and observers estimated the count of protesters who attended their cities' Women's Marches. This data was compiled on a spreadsheet which you can find <a href="https://docs.google.com/spreadsheets/d/1xa0iLqYKz8x9Yc_rfhtmSOJQ2EGgeUVjvV4A8LsIaxY/edit#gid=0">here</a>. The graphic below shows the low and high estimates for crowd sizes at all 643 towns and cities that held a Woman's March.</h4>
+</div>
+<div id="mapDiv" style="width:80%; margin:auto"></div>
+</body>
+</html>
