@@ -10,6 +10,7 @@
   <script type='text/javascript'>
    	google.charts.load('upcoming', {'packages': ['geochart']});
    	google.charts.setOnLoadCallback(drawMarkersMap);
+   	var isLow = true;
 
    	function httpGetAsync(theUrl, callback) {
     	var xmlHttp = new XMLHttpRequest();
@@ -23,20 +24,25 @@
 		httpGetAsync("http://ryusock.github.io/womens-march/sample-estimates.txt", readText)
 
 		var rows = []
-		var dataArray = [['City', 'Crowd Estimate']];
+		var lowArray = [['City', 'Crowd Estimate (Low)']];
+		var highArray = [['City', 'Crowd Estimate (High)']];
 		function readText(text) {
 			rows = text.split("\n");
 			for (i = 0; i < rows.length; i++) {
 				var r = rows[i].split(";");
 				var location = r[0].replace(/'/g, "");
-				var count = parseInt(r[3]);
-				dataArray.push([location, count]);
+				var lowcount = parseInt(r[3]);
+				var highcount = parseInt(r[4]);
+				if (location.length !== 0) {
+					lowArray.push([location, lowcount]);
+					highArray.push([location, highcount]);
+				}
 			}
 
 		}
    	
     function drawMarkersMap() {
-    var data = google.visualization.arrayToDataTable(dataArray);
+    var data = google.visualization.arrayToDataTable(lowArray);
 
     var options = {
       region: 'US',
@@ -46,6 +52,25 @@
 
     var chart = new google.visualization.GeoChart(document.getElementById('mapDiv'));
     chart.draw(data, options);
+
+    function toggleMap() {
+    	if (isLow) {
+    		var data = google.visualization.arrayToDataTable(highArray);
+    		isLow = false;
+    	} else {
+    		var data = google.visualization.arrayToDataTable(lowArray);
+    		isLow = true;
+    	}
+    	
+    	var options = {
+      	region: 'US',
+      	displayMode: 'markers',
+      	colorAxis: {colors: ['green', 'blue']}
+    	};
+
+    	var chart = new google.visualization.GeoChart(document.getElementById('mapDiv'));
+    	chart.draw(data, options);
+    }
   };
   </script>
   <title>Women's March</title>
@@ -54,8 +79,8 @@
 <body>
 <div class="container">
 	<h1>Visualizing the Women's March crowd estimates at US cities</h1>
-	<h4>Local organizers and observers estimated the count of protesters who attended their cities' Women's Marches. This data was compiled on a spreadsheet which you can find <a href="https://docs.google.com/spreadsheets/d/1xa0iLqYKz8x9Yc_rfhtmSOJQ2EGgeUVjvV4A8LsIaxY/edit#gid=0">here</a>. The graphic below shows the low and high estimates for crowd sizes at all 643 towns and cities that held a Woman's March.</h4>
+	<h4>Local organizers and observers estimated the count of protesters who attended their cities' Women's Marches. This data was compiled on a spreadsheet which you can find <a href="https://docs.google.com/spreadsheets/d/1xa0iLqYKz8x9Yc_rfhtmSOJQ2EGgeUVjvV4A8LsIaxY/edit#gid=0">here</a>. The graphic below shows the low and high estimates for crowd sizes at all 622 towns and cities that held a Women's March.</h4>
 </div>
-<div id="mapDiv" style="width:80%; margin:auto"></div>
+<div id="mapDiv" style="width:70%; margin:auto"></div>
 </body>
 </html>
