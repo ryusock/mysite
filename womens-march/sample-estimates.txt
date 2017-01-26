@@ -1,0 +1,8 @@
+'Abilene, TX';TX;US;200;200
+'Accident, MD';MD;US;54;54
+'Adak, AK';AK;US;10;10
+'Adrian, MI';MI;US;150;150
+'Ajo, AZ';AZ;US;250;250
+'Alameda, CA';CA;US;8;8
+'Alamosa, CO';CO;US;350;350
+'Albany, CA';CA;US;500;500
