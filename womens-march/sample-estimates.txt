@@ -98,3 +98,103 @@
 'Chesapeake Bay, MD';MD;US;1;1
 'Cheyenne, WY';WY;US;1200;2000
 'Chicago, IL';IL;US;250000;250000
+'Chico, CA';CA;US;1000;3000
+'Chillicothe, OH';OH;US;1000;1000
+'Christiansted, St. Croix';VI;US;350;550
+'Cincinnati, OH';OH;US;5000;12000
+'Clare, MI';MI;US;24;75
+'Clarion, PA';PA;US;65;100
+'Clemson, SC';SC;US;500;500
+'Cleveland, OH';OH;US;15000;15000
+'Cobb, CA';CA;US;2;2
+'Cobleskill, NY';NY;US;350;350
+'Cody, WY';WY;US;400;500
+'College Station, TX';TX;US;50;50
+'Colorado Springs, CO';CO;US;7000;7000
+'Columbia, MD';MD;US;100;125
+'Columbia, MO';MO;US;2000;3604
+'Columbia, SC';SC;US;2000;3000
+'Columbus, OH';OH;US;2000;3000
+'Columbus, OH';OH;US;200;200
+'Compton, CA';CA;US;35;45
+'Concord, NH';NH;US;4000;6000
+'Conover, WI';WI;US;1;1
+'Cooperstown, NY';NY;US;200;200
+'Coos Bay, OR';OR;US;200;200
+'Copper Harbor, MI';MI;US;19;36
+'Cordova, AK';AK;US;108;114
+'Corpus Christi, TX';TX;US;24;24
+'Cortez, CO';CO;US;400;504
+'Corvallis, OR';OR;US;100;100
+'Craftsbury, VT';VT;US;15;15
+'Crested Butte, CO';CO;US;350;500
+'Crestone, CO';CO;US;1;1
+'Cruz Bay, St. John';VI;US;200;200
+'Crystal River, FL';FL;US;7;7
+'Dallas, TX';TX;US;5000;8000
+'Davis, WV';WV;US;12;12
+'Dayton, OH';OH;US;3000;3000
+'Daytona Beach, FL';FL;US;100;100
+'Decorah, IA';IA;US;800;1000
+'Delaware, OH';OH;US;127;130
+'Delhi, NY';NY;US;50;120
+'Deming, NM';NM;US;45;50
+'Denton, TX';TX;US;2500;2800
+'Denver, CO';CO;US;100000;200000
+'Des Moines, IA';IA;US;26000;26000
+'Detroit, MI';MI;US;4000;4000
+'Douglas-Saugatuck, MI';MI;US;1200;2500
+'Doylestown, PA';PA;US;1000;2000
+'Driggs, ID';ID;US;1000;1000
+'Dubuque, IA';IA;US;400;400
+'Duluth, MN';MN;US;1500;1700
+'Durango, CO';CO;US;200;1000
+'Eagle Pass, TX';TX;US;30;30
+'East Haddam, CT';CT;US;500;500
+'East Liberty, PA';PA;US;2000;2000
+'East Millinocket, ME';ME;US;4;4
+'Eastport, ME';ME;US;111;111
+'Eastsound, WA';WA;US;250;250
+'Eau Claire, WI';WI;US;250;250
+'El Centro, CA';CA;US;100;100
+'El Morro, NM';NM;US;30;30
+'El Paso, TX';TX;US;1000;2000
+'Elgin, IL';IL;US;200;1000
+'Ellensburg, WA';WA;US;200;275
+'Ellsworth, ME';ME;US;60;60
+'Ely, MN';MN;US;50;50
+'Encinitas, CA (Seacrest)';CA;US;50;50
+'Ephrata, WA';WA;US;250;250
+'Erie, PA';PA;US;2500;4000
+'Esperanza, PR';PR;US;300;350
+'Eugene, OR';OR;US;7000;10000
+'Eureka, CA';CA;US;5000;8000
+'Evanston, WY';WY;US;1;1
+'Fairbanks, AK';AK;US;2000;2000
+'Fairfax, CA';CA;US;25;500
+'Fairfield, IA';IA;US;200;200
+'Fairmont, WV';WV;US;95;95
+'Falmouth, MA';MA;US;1000;1000
+'Fargo, ND';ND;US;1000;3000
+'Fayetteville, AR';AR;US;1000;1000
+'Fernandina Beach, FL';FL;US;1000;1300
+'Flagstaff, AZ';AZ;US;1000;2000
+'Florence, OR';OR;US;300;300
+'Floyd, VA';VA;US;200;200
+'Forks, WA';WA;US;45;45
+'Fort Atkinson, WI';WI;US;200;200
+'Fort Bragg, CA';CA;US;2500;2800
+'Fort Collins, CO';CO;US;600;600
+'Fort Wayne, IN';IN;US;1000;1000
+'Fort Worth, TX';TX;US;5000;6000
+'Francestown, NH';NH;US;134;134
+'Frederick, MD';MD;US;1000;1000
+'Fredonia, NY';NY;US;70;120
+'Fresno, CA';CA;US;2000;2000
+'Friday Harbor, WA';WA;US;1500;1500
+'Gainesville, FL';FL;US;1500;1500
+'Gainesville, FL';FL;US;500;500
+'Galesburg, IL';IL;US;200;500
+'Gila, NM';NM;US;1;1
+'Glens Falls, NY';NY;US;1000;1500
+'Glenwood Springs, CO';CO;US;100;100
