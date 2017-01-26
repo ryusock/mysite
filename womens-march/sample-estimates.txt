@@ -397,3 +397,103 @@
 'Orford, NH';NH;US;7;7
 'Orlando, FL';FL;US;3000;8000
 'Owensboro, KY';KY;US;15;30
+'Oxford, MS';MS;US;450;450
+'Pacifica, CA';CA;US;1200;1200
+'Palm Desert, CA';CA;US;1000;1000
+'Palmdale, CA';CA;US;24;24
+'Palmer, AK';AK;US;377;1000
+'Paradox, NY';NY;US;3;3
+'Park City, UT';UT;US;5000;8000
+'Panama City, FL';FL;US;500;500
+'Paoli, IN';IN;US;67;67
+'Paonia, CO';CO;US;40;40
+'Pasadena, CA';CA;US;500;1700
+'Pence, WI';WI;US;1;1
+'Pendelton, OR';OR;US;425;650
+'Pensacola, FL';FL;US;2000;2000
+'Pentwater, MI';MI;US;2;2
+'Peoria, IL';IL;US;1500;2000
+'Pequannock Township, NJ';NJ;US;800;1000
+'Peterborough, NH';NH;US;50;60
+'Petersburg, AK';AK;US;50;80
+'Philadelphia, PA';PA;US;50000;50000
+'Phoenix, AZ';AZ;US;20000;25000
+'Pierre, SD';SD;US;130;135
+'Pikeville, KY';KY;US;100;100
+'Pinedale, WY';WY;US;100;100
+'Pittsburgh, PA';PA;US;25000;25000
+'Pittsfield, MA';MA;US;15001500
+'Plattsburgh, NY';NY;US;182;700
+'Plymouth, WI';WI;US;200;200
+'Pocatello, ID';ID;US;1200;1200
+'Point Reyes Station, CA';CA;US;35;85
+'Port Angeles, WA';WA;US;100;200
+'Port Jefferson, NY';NY;US;2000;2000
+'Port Jervis, NY';NY;US;350;500
+'Port Orford, OR';OR;US;280;300
+'Port Townsend, WA';WA;US;300;1000
+'Portales, NM';NM;US;50;50
+'Portland, ME';ME;US;10000;10000
+'Portland, OR';OR;US;70000;100000
+'Portland, OR area';OR;US;55;60
+'Portsmouth, NH';NH;US;3000;5000
+'Potsdam, NY';NY;US;18;22
+'Poughkeepsie, NY';NY;US;4000;7716
+'Prescott, AZ';AZ;US;1200;1200
+'Providence, RI';RI;US;5000;7000
+'Provincetown, MA';MA;US;300;300
+'Quincy, CA';CA;US;50;105
+'Raleigh, NC';NC;US;17000;20000
+'Rapid City, SD';SD;US;1000;2000
+'Reading, PA';PA;US;100;450
+'Red Bank, NJ';NJ;US;200;400
+'Redding, CA';CA;US;300;300
+'Redondo Beach, CA';CA;US;2000;2000
+'Redwood City, CA';CA;US;2500;2500
+'Reno, NV';NV;US;10000;10000
+'Richland, WA';WA;US;1000;2500
+'Richmond, VA';VA;US;2000;2000
+'Ridgecrest, CA';CA;US;180;200
+'Ridgway, CO';CO;US;50;150
+'Riegelsville, PA';PA;US;170;200
+'Riverside, CA';CA;US;4000;4000
+'Roanoke, VA';VA;US;3000;4500
+'Rochester, MN';MN;US;600;1000
+'Rochester, NY';NY;US;1500;2000
+'Rock Springs, WY';WY;US;90;120
+'Rockford, IL';IL;US;1000;1000
+'Romney, WV';WV;US;30;50
+'Roswell, NM';NM;US;2;2
+'Roxbury, CT';CT;US;15;100
+'St. Augustine, FL';FL;US;1000;2000
+'St. Croix, VI';VI;US;250;250
+'St. George, UT';UT;US;1200;1475
+'St. John, VI';VI;US;60;60
+'St. Johnsbury, VT';VT;US;50;70
+'St. Joseph, MI';MI;US;60;60
+'St. Louis, MO';MO;US;10000;20000
+'St. Mary's City, MD';MD;US;10;10
+'St. Mary of the Woods, IN';IN;US;180;200
+'St. Paul/Minneapolis, MN';MN;US;90000;100000
+'St. Petersburg, FL';FL;US;20000;20000
+'Sacramento, CA';CA;US;20000;38000
+'Sag Harbor, NY';NY;US;250;250
+'Salem, OR';OR;US;1000;4200
+'Salem, WI';WI;US;2;2
+'Salida, CO';CO;US;40;50
+'Salinas, CA';CA;US;80;80
+'Salisbury, CT';CT;US;200;434
+'Salt Lake City, UT (1/20)';UT;US;1000;1000
+'Salt Lake City, UT (1/23)';UT;US;6000;10000
+'San Anselmo, CA';CA;US;4;4
+'San Antonio, TX';TX;US;1500;3000
+'San Bernardino, CA';CA;US;80;80
+'San Clemente, CA';CA;US;100;200
+'San Diego, CA';CA;US;30000;40000
+'San Francisco, CA';CA;US;100000;150000
+'San Jose, CA';CA;US;25000;40000
+'San Juan, PR';PR;US;200;400
+'San Luis Obispo, CA';CA;US;7000;10000
+'San Marcos, CA';CA;US;3000;10000
+'San Rafael, CA';CA;US;500;500
+'Sanford, ME';ME;US;100;130
