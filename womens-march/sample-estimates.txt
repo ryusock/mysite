@@ -323,28 +323,3 @@
 'Mt. Laurel, NJ';NJ;US;20;20
 'Madison, WI';WI;US;75000;100000
 'Manchester, VT';VT;US;50;50
-'Mankato, MN';MN;US;50;140
-'Marfa, TX';TX;US;76;76
-'Martha's Vineyard, MA';MA;US;100;100
-'Marquette, MI';MI;US;200;800
-'Marshall, MN';MN;US;2;2
-'Maryville, IL';IL;US;40;50
-'McCall, ID';ID;US;75;150
-'McMinnville, OR';OR;US;700;1400
-'Melbourne/Brevard County, FL';FL;US;500;500
-'Memphis, TN';TN;US;3000;9000
-'Menomonie, WI';WI;US;200;450
-'Mentone, AL';AL;US;50;50
-'Miami, FL';FL;US;10000;25000
-'Midland, MI';MI;US;400;400
-'Midland, TX';TX;US;50;100
-'Miles City, MT';MT;US;500;500
-'Milford, CT';CT;US;120;120
-'Milhelm, PA';PA;US;50;50
-'Milwaukee, WI';WI;US;1000;1000
-'Minocqua, WI';WI;US;300;300
-'Minturn, CO';CO;US;6;6
-'Missoula, MT';MT;US;80;120
-'Mitchell, IN';IN;US;18;20
-'Moab, UT';UT;US;200;200
-'Mobile, AL';AL;US;900;1000
