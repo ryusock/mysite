@@ -9,9 +9,10 @@
   type="text/javascript"></script>
   <script type='text/javascript'>
    	google.charts.load('upcoming', {'packages': ['geochart']});
-   	//google.charts.setOnLoadCallback(drawMarkersMapLow);
+   	google.charts.setOnLoadCallback(drawMarkersMapLow);
    	google.charts.setOnLoadCallback(drawMarkersMapHigh);
    	var isLow = true;
+   	var geocode = null;
 
    	function httpGetAsync(theUrl, callback) {
     	var xmlHttp = new XMLHttpRequest();
@@ -22,21 +23,23 @@
     	xmlHttp.open("GET", theUrl, true); // true for asynchronous 
     	xmlHttp.send(null);
 		}
-		httpGetAsync("http://ryusock.github.io/womens-march/sample-estimates.txt", readText)
+		httpGetAsync("http://ryusock.github.io/womens-march/crowd-estimates.txt", readText)
 
 		var rows = []
-		var lowArray = [['City', 'Crowd Estimate (Low)']];
-		var highArray = [['City', 'Crowd Estimate (High)']];
+		var lowArray = [["Latitude", "Longitude", "City", "Crowd Estimate (Low)"]];
+		var highArray = [["Latitude", "Longitude", "City", 'Crowd Estimate (High)']];
 		function readText(text) {
 			rows = text.split("\n");
 			for (i = 0; i < rows.length; i++) {
 				var r = rows[i].split(";");
 				var location = r[0].replace(/'/g, "");
-				var lowcount = parseInt(r[3]);
-				var highcount = parseInt(r[4]);
+				var lat = parseFloat(r[1]);
+				var lng = parseFloat(r[2]);
+				var lowcount = parseInt(r[5]);
+				var highcount = parseInt(r[6]);
 				if (location.length !== 0) {
-					lowArray.push([location, lowcount]);
-					highArray.push([location, highcount]);
+					lowArray.push([lat, lng, location, lowcount]);
+					highArray.push([lat, lng, location, highcount]);
 				}
 			}
 
@@ -66,7 +69,20 @@
 
     	var chart = new google.visualization.GeoChart(document.getElementById('highDiv'));
     	chart.draw(data, options);
+    	document.getElementById('highDiv').style.display = 'none';
   	};
+
+  	function toggleGraph() {
+  		if (isLow) {
+  			document.getElementById('lowDiv').style.display = 'none';
+  			document.getElementById('highDiv').style.display = 'block'
+  			isLow = false;
+  		} else {
+  			document.getElementById('lowDiv').style.display = 'block';
+  			document.getElementById('highDiv').style.display = 'none';
+  			isLow = true;
+  		}
+  	}
   </script>
   <title>Women's March</title>
 </head>
@@ -76,8 +92,10 @@
 	<h1>Visualizing the Women's March crowd estimates at US cities</h1>
 	<h4>Local organizers and observers estimated the count of protesters who attended their cities' Women's Marches. This data was compiled on a spreadsheet which you can find <a href="https://docs.google.com/spreadsheets/d/1xa0iLqYKz8x9Yc_rfhtmSOJQ2EGgeUVjvV4A8LsIaxY/edit#gid=0">here</a>. The graphic below shows the low and high estimates for crowd sizes at all 622 towns and cities that held a Women's March.</h4>
 </div>
-<div id="lowDiv" style="width:70%; margin:auto"></div>
-<div id="highDiv" style="width:70%; margin:auto"></div>
-<button onclick="myFunction()">High Estimate</button>
+<div class="container">
+	<div id="lowDiv" style=""></div>
+	<div id="highDiv" style=""></div>
+	<button onclick="toggleGraph()">Toggle Low/High Estimate</button>
+</div>
 </body>
 </html>
