@@ -30,7 +30,7 @@
 				var r = rows[i].split(";");
 				var location = r[0].replace(/'/g, "");
 				var count = parseInt(r[3]);
-				if (location.length) != 0 {
+				if (location.length !== 0) {
 					dataArray.push([location, count]);
 				}
 			}
