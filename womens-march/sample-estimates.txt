@@ -198,3 +198,103 @@
 'Gila, NM';NM;US;1;1
 'Glens Falls, NY';NY;US;1000;1500
 'Glenwood Springs, CO';CO;US;100;100
+'Gloucester, NJ';NJ;US;200;250
+'Gouldsboro, ME';ME;US;25;45
+'Grand Forks, ND';ND;US;304;304
+'Grand Junction, CO';CO;US;4500;5000
+'Grand Marais, MN';MN;US;97;120
+'Grand Rapids, MI';MI;US;2500;3000
+'Grants Pass, OR';OR;US;1;1
+'Green Bay, WI';WI;US;200;200
+'Green Valley, AZ';AZ;US;350;575
+'Greenfield, MA';MA;US;1000;2000
+'Greensboro, NC';NC;US;3000;6000
+'Greensburg, IN';IN;US;45;65
+'Greenville, SC';SC;US;2000;2000
+'Greenville, NC';NC;US;100;200
+'Gross Pointe, MI';MI;US;1143;1300
+'Gualala, CA';CA;US;203;300
+'Guilford, CT';CT;US;32;32
+'Gulfport, MS';MS;US;300;709
+'Gustavus, AK';AK;US;105;105
+'Hagatna, Guam';GM;US;150;250
+'Haines, AK';AK;US;150;170
+'Halfway, OR';OR;US;31;31
+'Hana, HI';HI;US;30;30
+'Harrisburg, PA';PA;US;900;1109
+'Harrisville, MI';MI;US;5;5
+'Hartford, CT';CT;US;10000;10000
+'Harwich, MA';MA;US;200;200
+'Helena, AR';AR;US;2;2
+'Helena, MT';MT;US;10000;10000
+'Hemet, CA';CA;US;98;98
+'Hilldale, UT';UT;US;1;1
+'Hillsborough, NC';NC;US;200;2000
+'Hilo, HI';HI;US;1500;2200
+'Holden Village, WA';WA;US;47;52
+'Homer, AK';AK;US;900;900
+'Honolulu (Oahu) HI';HI;US;3000;8000
+'Hood River, OR';OR;US;50;50
+'Houghton, MI';MI;US;500;500
+'Houlton, ME';ME;US;45;50
+'Houston, TX';TX;US;20000;23187
+'Howard County, MD';MD;US;100;125
+'Hudson, NY';NY;US;2000;3000
+'Huntsville, AL';AL;US;80;110
+'Huron, SD';SD;US;11;13
+'Idaho Falls, ID';ID;US;500;500
+'Indiana, PA';PA;US;100;200
+'Indianapolis, IN';IN;US;4000;10000
+'Inverness, CA';CA;US;5;5
+'Iowa City, IA';IA;US;1000;1000
+'Isla Vista, CA';CA;US;500;500
+'Issaquah, WA';WA;US;56;56
+'Ithaca, NY';NY;US;8000;10000
+'Jackson, NH';NH;US;300;300
+'Jackson, MS';MS;US;750;5000
+'Jackson Hole, WY';WY;US;1000;1000
+'Jacksonville, FL';FL;US;2000;3000
+'Jefferson City, MO';MO;US;6;7
+'Jerome, AZ';AZ;US;85;100
+'Jonesborough, TN';TN;US;1000;1000
+'Joseph, OR';OR;US;310;310
+'June Lake, CA';CA;US;21;21
+'Juneau, AK';AK;US;1000;1000
+'Kahului, Maui, HI';HI;US;1500;5000
+'Kalamazoo, MI';MI;US;1000;2000
+'Kanab, UT';UT;US;175;175
+'Kansas City, MO';MO;US;5000;10000
+'Kaunakakai (Molokai), HI';HI;US;200;200
+'Kawaihae, HI';HI;US;50;50
+'Keene, NH';NH;US;245;600
+'Kennebunk, ME';ME;US;1000;1000
+'Kent, CT';CT;US;180;200
+'Kent, OH';OH;US;100;100
+'Ketchikan, AK';AK;US;150;200
+'Ketchum, ID';ID;US;1000;1150
+'Key West, FL';FL;US;3000;3500
+'Killington, VT';VT;US;51;112
+'King's Beach, CA';CA;US;500;800
+'Kingston, WA';WA;US;60;60
+'Klamath Falls, Oregon';OR;US;200;300
+'Knoxville, TN';TN;US;2000;5000
+'Kodiak, AK';AK;US;335;400
+'Kona, HI';HI;US;3000;3500
+'Kotzebue, AK';AK;US;35;36
+'La Crosse, WI';WI;US;76;150
+'La Grande, OR';OR;US;104;250
+'Lafayette, CO';CO;US;66;112
+'Lafayette, IN';IN;US;800;1000
+'Laguna Beach, CA';CA;US;3500;4000
+'Lake Havasu City, AZ';AZ;US;35;40
+'Lakeside, OH';OH;US;300;300
+'Lakeville, CT';CT;US;85;100
+'Lamoni, IA';IA;US;18;30
+'Lancaster, NH';NH;US;400;400
+'Lancaster, PA';PA;US;100;2000
+'Lander, WY';WY;US;350;500
+'Langley, WA';WA;US;1200;1300
+'Lansdale, PA';PA;US;3;3
+'Lansing, MI';MI;US;8000;30000
+'Las Cruces, NM';NM;US;200;1500
+'Las Vegas, NV';NV;US;4000;15000
