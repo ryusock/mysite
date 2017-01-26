@@ -298,3 +298,102 @@
 'Lansing, MI';MI;US;8000;30000
 'Las Cruces, NM';NM;US;200;1500
 'Las Vegas, NV';NV;US;4000;15000
+'Leonia, NJ';NJ;US;100;280
+'Lexington, KY';KY;US;5000;10000
+'Lewes, DE';DE;US;250;250
+'Lewis, NY';NY;US;147;325
+'Lewisburg, PA';PA;US;150;200
+'Lihue (Kauai) HI';HI;US;1500;1500
+'Lilly, PA';PA;US;4;4
+'Lincoln, NE';NE;US;2000;4000
+'Little Rock, AR';AR;US;7000;7000
+'Logan, UT';UT;US;50;100
+'Lompoc, CA';CA;US;100;100
+'Longview, WA';WA;US;200;200
+'Longville, MN';MN;US;67;67
+'Los Angeles, CA';CA;US;200000;750000
+'Louisville, KY';KY;US;5000;5000
+'Loup City, NE';NE;US;100;150
+'Lovell, ME';ME;US;2;2
+'Lovettsville,VA';US,5;5
+'Lubbock, TX';TX;US;350;1000
+'Lubec, ME';ME;US;95;95
+'Lyons, CO';CO;US;25;30
+'Mt. Shasta, CA';CA;US;400;400
+'Mt. Laurel, NJ';NJ;US;20;20
+'Madison, WI';WI;US;75000;100000
+'Manchester, VT';VT;US;50;50
+'Mankato, MN';MN;US;50;140
+'Marfa, TX';TX;US;76;76
+'Martha's Vineyard, MA';MA;US;100;100
+'Marquette, MI';MI;US;200;800
+'Marshall, MN';MN;US;2;2
+'Maryville, IL';IL;US;40;50
+'McCall, ID';ID;US;75;150
+'McMinnville, OR';OR;US;700;1400
+'Melbourne/Brevard County, FL';FL;US;500;500
+'Memphis, TN';TN;US;3000;9000
+'Menomonie, WI';WI;US;200;450
+'Mentone, AL';AL;US;50;50
+'Miami, FL';FL;US;10000;25000
+'Midland, MI';MI;US;400;400
+'Midland, TX';TX;US;50;100
+'Miles City, MT';MT;US;500;500
+'Milford, CT';CT;US;120;120
+'Milhelm, PA';PA;US;50;50
+'Milwaukee, WI';WI;US;1000;1000
+'Minocqua, WI';WI;US;300;300
+'Minturn, CO';CO;US;6;6
+'Missoula, MT';MT;US;80;120
+'Mitchell, IN';IN;US;18;20
+'Moab, UT';UT;US;200;200
+'Mobile, AL';AL;US;900;1000
+'Modesto, CA';CA;US;900;1000
+'Mooresville, NC';NC;US;70;70
+'Monhegan Island,ME';ME;US;22;22
+'Montpelier, VT';VT;US;15000;20000
+'Mora, NM';NM;US;1;1
+'Morganton, NC';NC;US;500;600
+'Morris, MN';MN;US;250;250
+'Moscow, ID';ID;US;2500;2500
+'Mount Vernon, OH';OH;US;20;30
+'Mount Vernon, WA';WA;US;200;1800
+'Murray, KY';KY;US;700;700
+'Nacogdoches, TX';TX;US;200;300
+'Nantucket, MA';MA;US;400;400
+'Napa, CA';CA;US;3000;3000
+'Naples, FL';FL;US;2500;5000
+'Nashville, TN';TN;US;15000;20000
+'Nebraska City, NE';NE;US;3;3
+'Nederland, CO';CO;US;20;35
+'Nevada City, CA';CA;US;100;100
+'New Bern, NC';NC;US;300;700
+'New Haven, CT';CT;US;200;200
+'New Orleans, LA';LA;US;7000;15000
+'New Smyrna Beach, FL';FL;US;1000;1000
+'New York, NY';NY;US;400000;500000
+'Newark, DE';DE;US;1000;1200
+'Newark, NJ';NJ;US;1000;1000
+'Newport, OR';OR;US;1500;1500
+'Nome, AK';AK;US;80;100
+'Norfolk, VA';VA;US;2000;2800
+'Northampton, MA';MA;US;2500;3000
+'Oak Ridge, TN';TN;US;450;550
+'Oakhurst, CA';CA;US;200;201
+'Oakland, CA';CA;US;100000;100000
+'Ocala, FL';FL;US;100;300
+'Ocean City, MD';MD;US;200;600
+'Ocean Shores, WA';WA;US;120;200
+'Ocracoke, NC';NC;US;108;120
+'Ogden, UT';UT;US;200;300
+'Oklahoma City, OK';OK;US;7000;12000
+'Old Saybrook, CT';CT;US;800;1000
+'Olympia, WA';WA;US;10000;10000
+'Omaha, NE';NE;US;12000;18000
+'Oneonta, NY';NY;US;500;500
+'Onley, VA';VA;US;50;50
+'Ontario, CA';CA;US;200;200
+'Orcas Island, WA';WA;US;200;200
+'Orford, NH';NH;US;7;7
+'Orlando, FL';FL;US;3000;8000
+'Owensboro, KY';KY;US;15;30
