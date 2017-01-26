@@ -315,7 +315,7 @@
 'Louisville, KY';KY;US;5000;5000
 'Loup City, NE';NE;US;100;150
 'Lovell, ME';ME;US;2;2
-'Lovettsville,VA';US,5;5
+'Lovettsville,VA';VA;US;5;5
 'Lubbock, TX';TX;US;350;1000
 'Lubec, ME';ME;US;95;95
 'Lyons, CO';CO;US;25;30
