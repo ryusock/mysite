@@ -12,10 +12,8 @@
 }
 
 .jumbotron {
-	background-image: url("../images/moonrise_kingdom.jpg");
-	background-size: 100%;
+	background-color: #dedede;
 	height: 800px;
-	max-width: 100%;
 	color: #454545;
 	font-family: 'Open Sans', sans-serif;
 	padding-top: 100px;
