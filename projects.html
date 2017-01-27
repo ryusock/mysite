@@ -20,7 +20,7 @@
 <div class="container">
 	<ul>
 		<li>
-        <h2><a href="womens-march/map.html">Visualizing the crowd estimates of the Women's March</a></h2>
+        <h3><a href="womens-march/map.html">Visualizing the crowd estimates of the Women's March</a></h3>
         <p>Some things I learned:
         <ul>
           <li>I was persuaded to do asynchronous HTTP GET requests to improve speeds (the fact that the synchronous request is deprecated on most browsers). However, it was a little annoying that I can't "return" the value of a request. Of course, I can just update a global variable in the callback function instead.</li>
@@ -28,7 +28,7 @@
           <li>When I finally mapped the data onto the chart, I noticed that the markers were loading slowly. <em>Very slowly.</em> They were loading one by one at about half a second intervals. With a table of more than 600 entries, that would take minutes, which is unacceptable. That's when I realized that looking up names by Google Maps is an exhaustive process. If I converted the location names to geocode (latitude, longitude), that would rapidly speed up the loading. Geocodes are great (and precise)!</li>
         </ul>
     </li>
-    <li>Here's a link to my <a href="github.com/ryusock">Github</a>.</li>
+    <li><h3>Here's a link to my <a href="github.com/ryusock">Github</a>.</h3></li>
 	</ul>
 </div>
 </body>
