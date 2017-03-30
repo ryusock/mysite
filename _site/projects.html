@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+  <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+  <title>projects</title>
+</head>
+
+<body>
+<div class="nav">
+  <div class="container">
+  	<ul>
+    	<li><a href="index.html">ryusock</a></li>
+      <li><a href="bio.html">bio</a></li>
+      <li><a href="projects.html">projects</a></li>
+    </ul>
+  </div>
+</div>
+<div class="container">
+	<ul>
+    <li>
+      <h3>UC Berkeley Circle K website, March 2015 - March 2016</h3>
+      <p>Sup</p>
+    </li>
+		<li>
+        <h3><a href="womens-march/map.html">Visualizing the crowd estimates of the Women's March</a></h3>
+        <p>Some things I learned:
+        <ul>
+          <li>I was persuaded to do asynchronous HTTP GET requests to improve speeds (the fact that the synchronous request is deprecated on most browsers). However, it was a little annoying that I can't "return" the value of a request. Of course, I can just update a global variable in the callback function instead.</li>
+          <li>Parsing the data proved to be more difficult than I imagined, too. I downloaded the data from Google Spreadsheets as a CSV file, so I figured I could just split rows by comma to get the array I wanted. Unfortunately, the city names contain commas and states, so it was not so simple. That, and entries formatted differently (I counted about 50 such examples) made parsing more challenging.</li>
+          <li>When I finally mapped the data onto the chart, I noticed that the markers were loading slowly. <em>Very slowly.</em> They were loading one by one at about half a second intervals. With a table of more than 600 entries, that would take minutes, which is unacceptable. That's when I realized that looking up names by Google Maps is an exhaustive process. If I converted the location names to geocode (latitude, longitude), that would rapidly speed up the loading. Geocodes are great (and precise)!</li>
+        </ul>
+    </li>
+    <li><h3>More projects on <a href="github.com/ryusock">Github</a>.</h3></li>
+	</ul>
+</div>
+</body>
+</html>

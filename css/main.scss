@@ -1,0 +1,102 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Variables */
+$serif: "Georgia", Georgia, serif;
+$sans-serif: "Roboto", "Open Sans", sans-serif;
+$base-font-size:   14px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.9;
+$base-line-height: 1.5;
+
+$spacing-unit:     40px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2db188;
+$brand-color-light: lighten($brand-color, 10%);
+
+$grey-color:       #969696;
+$grey-color-light: lighten($grey-color, 20%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    700px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+/* Import partials from `sass_dir` (defaults to `_sass`) */
+@import "grid";
+
+body {
+  background-color: #242424;
+  color: #cdcdcd;
+  margin: 0;
+}
+
+a:link, a:visited, a:link:active, a:visited:active {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: auto;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%; /*whatever width you want*/
+}
+
+.intro {
+  font-family: $sans-serif;
+  border: 1px solid white;
+  padding: 0 16px 0 16px;
+  .fullWidth {
+    overflow: overlay;
+    padding-bottom: 10px;
+    h3 {
+      margin-top: 10px;
+    }
+    .left {
+      float: left;
+      display: inline-block;
+      margin-bottom: 0;
+    }
+    .right {
+      display: inline-block;
+      float: right;
+      margin-bottom: 0;
+    }
+  }
+  .autobiography {
+    a:link, a:visited {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (min-width: 450px) {
+  .inner {
+    width: 45%;
+  }
+  .intro {
+    .fullWidth {
+      font-size: 1.5em;
+    }
+  }
+}
